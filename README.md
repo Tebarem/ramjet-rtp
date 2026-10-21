@@ -41,7 +41,7 @@ Players seen before are kept in `seen.json` (for the first-join teleport).
 
 ## Building
 
-Set `RAMJET_HOME` to an engine build's `build/bin` (the folder with `dotnet/Mc.Scripting.Api.dll`):
+The plugin builds against the public [`Ramjet.Api`](https://www.nuget.org/packages/Ramjet.Api) package (`1.0.0-preview.4` or newer) from nuget.org; no engine build is needed.
 
 ```bash
 dotnet build src/rtp.csproj
